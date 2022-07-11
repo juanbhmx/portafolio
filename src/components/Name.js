@@ -1,14 +1,7 @@
 import '../css/styles.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Profile from '../img/profile.png'
-import Html from '../img/html.png'
-import Js from '../img/js.png'
-import Css from '../img/css3.png'
-// import Jquery from '../img/jq.webp'
-import Php from '../img/php.png'
-import Mysqlo from '../img/mysql.png'
-import Node from '../img/node.webp'
-import Reacto from '../img/react.png'
+
 import "@fontsource/montserrat";
 
 

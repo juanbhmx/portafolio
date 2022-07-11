@@ -11,6 +11,9 @@ import Node from '../img/node.webp'
 import Reacto from '../img/react.png'
 import Sass from '../img/sass.png'
 import Bs from '../img/bootstrap.png'
+import Ps from '../img/ps.png'
+import Ai from '../img/ai.png'
+import Team from '../img/team.png'
 import { Divider, Typography, Card, Avatar } from 'antd';
 const { Text } = Typography;
 const { Meta } = Card;
@@ -165,12 +168,55 @@ const Skills = () => {
                         />
                     </Card>
                     {/*  */}
-                    <Divider />
+                    <Divider className='mt-4' />
                     <Text type="light" className='d-flex justify-content-center textant'>Diseño</Text>
                     <Divider />
-                    <Divider />
+                    <Card
+                        className='cardbady'
+                        style={{
+                            width: 300,
+                            marginTop: 16,
+                        }}
+
+                    >
+                        <Meta
+                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Ps} />}
+                            title="Photoshop"
+                            description="90%"
+                        />
+                    </Card>
+                    <Card
+                        className='cardbady'
+                        style={{
+                            width: 300,
+                            marginTop: 16,
+                        }}
+
+                    >
+                        <Meta
+                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Ai} />}
+                            title="Ilustrator"
+                            description="90%"
+                        />
+                    </Card>
+                    <Divider className='mt-4' />
                     <Text type="light" className='d-flex justify-content-center textant'>Transversales</Text>
                     <Divider />
+                    <Card
+                        className='cardbady'
+                        style={{
+                            width: 300,
+                            marginTop: 16,
+                        }}
+
+                    >
+                        <Meta
+                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Team} />}
+                            title="Trabajo en equipo"
+                            description="99%"
+                        />
+                    </Card>
+                    
                 </div>
             </div>
         </>

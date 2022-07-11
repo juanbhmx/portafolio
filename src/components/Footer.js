@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='container mt-4'>
                 <div className='max-w-screen-lg mx-auto'>
                     <div className='col-md-12 nombreuser footer'>
-                        <h5 className='small col-md-12'>Diseñado & Desarrollado por</h5>                        
+                        <h5 className='small col-md-12'>Diseñado & Desarrollado por Juan Bautista</h5>                        
                     </div>
                 </div>
             </div>

@@ -221,6 +221,9 @@ img {
 
 .textant {
   color: white !important;
+  font-size: larger;
+  font-weight: 80px;
+  font-family: 'Paytone One', sans-serif;
 }
 
 .centraricons{

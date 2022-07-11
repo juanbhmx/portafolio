@@ -3,13 +3,28 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '@fontsource/montserrat';
 import Profile from '../img/profile.png'
 import emailjs from 'emailjs-com'
+import { message } from 'antd';
 
 const Contacto = () => {
     const enviarMail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_41fscqc', 'template_5k36dyq', e.target, 'PoZsIOqDFJ1phgzY8').then(res=>{
-            console.log(res)
+        emailjs.sendForm('service_41fscqc', 'template_5k36dyq', e.target, 'PoZsIOqDFJ1phgzY8').then(res => {
+            // console.log(res.status)
+            if (res.status == 200) {
+                document.getElementById("enviacorreo").reset();
+
+
+                message.success({
+                    content: 'Mensaje Enviado',
+                    className: 'custom-class',
+                    style: {
+                        marginTop: '50vh',
+                    },
+                });
+            } else {
+                message.error('Ha ocurrido un error!');
+            }
         })
     }
     return (
@@ -26,7 +41,7 @@ const Contacto = () => {
                             </div>
                         </div>
                         <div className='col-md-6'>
-                            <form onSubmit={enviarMail}>
+                            <form id="enviacorreo" onSubmit={enviarMail}>
                                 <div className='col'>
                                     <h1 className='d-flex justify-content-center bold mt-4'>Contacto</h1>
                                 </div>

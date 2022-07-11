@@ -30,30 +30,7 @@ const App = () => {
 
                     </div>
                     <div className='col-md-6'>
-                        <div className='html'>
-                            <img src={Html} className="img-fluid rounded-top html5" alt="" />
-                        </div>
-                        <div className='js'>
-                            <img src={Js} className="img-fluid rounded-top js" alt="" />
-                        </div>
-                        <div className='css'>
-                            <img src={Css} className="img-fluid rounded-top css" alt="" />
-                        </div>
-                        {/* <div className='jq'>
-                            <img src={Jquery} className="img-fluid rounded-top jq" alt="" />
-                        </div> */}
-                        <div className='php'>
-                            <img src={Php} className="img-fluid rounded-top php" alt="" />
-                        </div>
-                        <div className='sql'>
-                            <img src={Mysqlo} className="img-fluid rounded-top sql" alt="" />
-                        </div>
-                        <div className='node'>
-                            <img src={Node} className="img-fluid rounded-top node" alt="" />
-                        </div>
-                        <div className='react'>
-                            <img src={Reacto} className="img-fluid rounded-top react" alt="" />
-                        </div>
+                      
                         <div className='memoji'>
                             <img src={Profile} className="img-fluid rounded-top" alt="" />
                         </div>

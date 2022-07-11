@@ -1,14 +1,15 @@
+
 import { Tabs } from 'antd';
 import '../css/styles.css';
 import React from 'react';
 import People from './Name';
 import Skills from './Skills'
 import Contacto from './Contact'
+
 const { TabPane } = Tabs;
 
 const colore = {
   border: "none",
-
 }
 
 const App = () => (
@@ -23,7 +24,7 @@ const App = () => (
       contenido Portafolio
     </TabPane>
     <TabPane tab="Contacto" key={4}>
-    <Contacto/>
+      <Contacto />
     </TabPane>
   </Tabs>
 );

@@ -1,7 +1,7 @@
 import '../css/styles.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Profile from '../img/profile.png'
-// import Memoji from '../img/memopro.gif'
+import Memoji from '../img/memoji.mov'
 import ReactPlayer from 'react-player'
 
 import "@fontsource/montserrat";

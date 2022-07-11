@@ -14,7 +14,7 @@ import Bs from '../img/bootstrap.png'
 import Ps from '../img/ps.png'
 import Ai from '../img/ai.png'
 import Team from '../img/team.png'
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 import { Divider, Typography, Card, Avatar } from 'antd';
 const { Text } = Typography;
 const { Meta } = Card;

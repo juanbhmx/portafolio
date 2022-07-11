@@ -1,6 +1,8 @@
 import '../css/styles.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Profile from '../img/profile.png'
+import Memoji from '../img/memopro.gif'
+import ReactPlayer from 'react-player'
 
 import "@fontsource/montserrat";
 
@@ -23,9 +25,10 @@ const App = () => {
 
                     </div>
                     <div className='col-md-6'>
-                      
+
                         <div className='memoji'>
-                            <img src={Profile} className="img-fluid rounded-top" alt="" />
+                            
+                            <img src={Memoji} className="img-fluid rounded-top" alt="" />
                         </div>
                     </div>
                 </div>

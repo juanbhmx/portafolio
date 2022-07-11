@@ -226,14 +226,16 @@ img {
   font-family: 'Paytone One', sans-serif;
 }
 
-.centraricons{
+
+.centraricons {
   justify-content: center;
 }
 
-.cardbady{
+.cardbady {
   border-radius: 20px !important;
   border-top-left-radius: 0% !important;
 }
-.cardbady:hover{
+
+.cardbady:hover {
   filter: drop-shadow(0px 0px 10px rgb(26, 188, 156));
 }

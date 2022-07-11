@@ -14,159 +14,249 @@ import Bs from '../img/bootstrap.png'
 import Ps from '../img/ps.png'
 import Ai from '../img/ai.png'
 import Team from '../img/team.png'
+import { motion } from "framer-motion"
 import { Divider, Typography, Card, Avatar } from 'antd';
+// import React, { useState } from 'react';
 const { Text } = Typography;
 const { Meta } = Card;
 
 const Skills = () => {
+    
     return (
         <>
             <div className='container'>
                 <Text type="light" className='d-flex justify-content-center textant'>Desarrollo Web</Text>
+
                 <Divider />
 
                 <div className='row d-flex centraricons'>
-                    <Card
-                        className='cardbady'
-                        style={{
-                            width: 300,
-                            marginTop: 16,
-
+                    <motion.div
+                        animate={{
+                            x: '30px'
                         }}
-
                     >
-                        <Meta
-                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Html} />}
-                            title="HTML5"
-                            description="99%"
-                        />
-                    </Card>
-                    <Card
-                        className='cardbady'
-                        style={{
-                            width: 300,
-                            marginTop: 16,
+                        <Card
+                            className='cardbady'
+                            style={{
+                                width: 300,
+                                marginTop: 16,
+                            }}
+                        >
+                            <Meta
+                                avatar={<Avatar style={{ width: 50, height: 50 }} src={Html} />}
+                                title="HTML5"
+                                description="99%"
+                            />
+                        </Card>
+                    </motion.div>
+                    <motion.div
+                        animate={{
+                            x: 30,
+                            y: 0,
+                            scale: 1,
+                            rotate: 0,
                         }}
-
                     >
-                        <Meta
-                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Js} />}
-                            title="JavaScript"
-                            description="80%"
-                        />
-                    </Card>
-                    <Card
-                        className='cardbady'
-                        style={{
-                            width: 300,
-                            marginTop: 16,
+                        <Card
+                            className='cardbady'
+                            style={{
+                                width: 300,
+                                marginTop: 16,
+                            }}
+
+                        >
+                            <Meta
+                                avatar={<Avatar style={{ width: 50, height: 50 }} src={Js} />}
+                                title="JavaScript"
+                                description="80%"
+                            />
+                        </Card>
+
+                    </motion.div>
+                    <motion.div
+                        animate={{
+                            x: 30,
+                            y: 0,
+                            scale: 1,
+                            rotate: 0,
                         }}
-
                     >
-                        <Meta
-                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Bs} />}
-                            title="Bootstrap"
-                            description="80%"
-                        />
-                    </Card>
-                    <Card
-                        className='cardbady'
-                        style={{
-                            width: 300,
-                            marginTop: 16,
+                        <Card
+                            className='cardbady'
+                            style={{
+                                width: 300,
+                                marginTop: 16,
+                            }}
+
+                        >
+                            <Meta
+                                avatar={<Avatar style={{ width: 50, height: 50 }} src={Bs} />}
+                                title="Bootstrap"
+                                description="80%"
+                            />
+                        </Card>
+                    </motion.div>
+                    <motion.div
+                        animate={{
+                            x: 30,
+                            y: 0,
+                            scale: 1,
+                            rotate: 0,
                         }}
-
                     >
-                        <Meta
-                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Css} />}
-                            title="CSS"
-                            description="90%"
-                        />
-                    </Card>
-                    <Card
-                        className='cardbady'
-                        style={{
-                            width: 300,
-                            marginTop: 16,
+                        <Card
+                            className='cardbady'
+                            style={{
+                                width: 300,
+                                marginTop: 16,
+                            }}
+
+                        >
+                            <Meta
+                                avatar={<Avatar style={{ width: 50, height: 50 }} src={Css} />}
+                                title="CSS"
+                                description="90%"
+                            />
+                        </Card>
+                    </motion.div>
+                    <motion.div
+                        animate={{
+                            x: 30,
+                            y: 0,
+                            scale: 1,
+                            rotate: 0,
                         }}
-
                     >
-                        <Meta
-                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Sass} />}
-                            title="SASS"
-                            description="70%"
-                        />
-                    </Card>
-                    <Card
-                        className='cardbady'
-                        style={{
-                            width: 300,
-                            marginTop: 16,
+                        <Card
+                            className='cardbady'
+                            style={{
+                                width: 300,
+                                marginTop: 16,
+                            }}
+
+                        >
+                            <Meta
+                                avatar={<Avatar style={{ width: 50, height: 50 }} src={Sass} />}
+                                title="SASS"
+                                description="70%"
+                            />
+                        </Card>
+                    </motion.div>
+                    <motion.div
+                        animate={{
+                            x: 30,
+                            y: 0,
+                            scale: 1,
+                            rotate: 0,
                         }}
-
                     >
-                        <Meta
-                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Jquery} />}
-                            title="JQuery"
-                            description="90%"
-                        />
-                    </Card>
-                    <Card
-                        className='cardbady'
-                        style={{
-                            width: 300,
-                            marginTop: 16,
+                        <Card
+                            className='cardbady'
+                            style={{
+                                width: 300,
+                                marginTop: 16,
+                            }}
+
+                        >
+                            <Meta
+                                avatar={<Avatar style={{ width: 50, height: 50 }} src={Jquery} />}
+                                title="JQuery"
+                                description="90%"
+                            />
+                        </Card>
+                    </motion.div>
+                    <motion.div
+                        animate={{
+                            x: 30,
+                            y: 0,
+                            scale: 1,
+                            rotate: 0,
                         }}
-
                     >
-                        <Meta
-                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Php} />}
-                            title="PHP (ingles)"
-                            description="90%"
-                        />
-                    </Card>
-                    <Card
-                        className='cardbady'
-                        style={{
-                            width: 300,
-                            marginTop: 16,
+                        <Card
+                            className='cardbady'
+                            style={{
+                                width: 300,
+                                marginTop: 16,
+                            }}
+
+                        >
+                            <Meta
+                                avatar={<Avatar style={{ width: 50, height: 50 }} src={Php} />}
+                                title="PHP (ingles)"
+                                description="90%"
+                            />
+                        </Card>
+                    </motion.div>
+                    <motion.div
+                        animate={{
+                            x: 30,
+                            y: 0,
+                            scale: 1,
+                            rotate: 0,
                         }}
-
                     >
-                        <Meta
-                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Mysqlo} />}
-                            title="MySql"
-                            description="90%"
-                        />
-                    </Card>
-                    <Card
-                        className='cardbady'
-                        style={{
-                            width: 300,
-                            marginTop: 16,
+                        <Card
+                            className='cardbady'
+                            style={{
+                                width: 300,
+                                marginTop: 16,
+                            }}
+
+                        >
+                            <Meta
+                                avatar={<Avatar style={{ width: 50, height: 50 }} src={Mysqlo} />}
+                                title="MySql"
+                                description="90%"
+                            />
+                        </Card>
+                    </motion.div>
+                    <motion.div
+                        animate={{
+                            x: 30,
+                            y: 0,
+                            scale: 1,
+                            rotate: 0,
                         }}
-
                     >
-                        <Meta
-                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Node} />}
-                            title="Node Js"
-                            description="70%"
-                        />
-                    </Card>
-                    <Card
-                        className='cardbady'
-                        style={{
-                            width: 300,
-                            marginTop: 16,
+                        <Card
+                            className='cardbady'
+                            style={{
+                                width: 300,
+                                marginTop: 16,
+                            }}
+
+                        >
+                            <Meta
+                                avatar={<Avatar style={{ width: 50, height: 50 }} src={Node} />}
+                                title="Node Js"
+                                description="70%"
+                            />
+                        </Card>
+                    </motion.div>
+                    <motion.div
+                        animate={{
+                            x: 30,
+                            y: 0,
+                            scale: 1,
+                            rotate: 0,
                         }}
-
                     >
-                        <Meta
-                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Reacto} />}
-                            title="React Js"
-                            description="70%"
-                        />
-                    </Card>
+                        <Card
+                            className='cardbady'
+                            style={{
+                                width: 300,
+                                marginTop: 16,
+                            }}
+
+                        >
+                            <Meta
+                                avatar={<Avatar style={{ width: 50, height: 50 }} src={Reacto} />}
+                                title="React Js"
+                                description="70%"
+                            />
+                        </Card>
+                    </motion.div>
                     {/*  */}
                     <Divider className='mt-4' />
                     <Text type="light" className='d-flex justify-content-center textant'>Diseño</Text>
@@ -216,7 +306,7 @@ const Skills = () => {
                             description="99%"
                         />
                     </Card>
-                    
+
                 </div>
             </div>
         </>

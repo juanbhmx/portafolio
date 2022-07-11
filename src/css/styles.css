@@ -27,7 +27,7 @@
   color: var(--blanco);
 }
 
-#download{
+#download {
   color: var(--azul);
   background-color: rgb(5, 255, 205);
   border: var(--azul);
@@ -40,7 +40,8 @@
   background-color: rgb(26, 188, 156);
   border-radius: 100%;
   filter: drop-shadow(4px 6px 25px rgb(5, 255, 205));
-  width: 90%;
+  /* width: 90%;
+  height: 90%; */
 }
 
 
@@ -100,6 +101,11 @@ img {
     flex-direction: column;
   }
 
+  .memoji {
+    width: 90%;
+    height: 75%;
+  }
+
   .ant-tabs-nav .ant-tabs-nav-wrap .menuBar .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
     width: 100% !important;
     height: 100% !important;
@@ -109,7 +115,7 @@ img {
     /* width: 850px !important; */
     /* height: 740px !important; */
     background: linear-gradient(to top, rgba(26, 188, 156) 0%, rgba(21, 67, 96) 100%);
-    max-height: 100vh;
+    /* max-height: 100vh; */
   }
 
   .footer {
@@ -122,101 +128,41 @@ img {
     background-color: transparent;
   }
 
-  .html5 {
-    position: absolute;
-    width: 55px;
-    margin: 50px auto;
+  .centraricons {
+    justify-content: center !important;
+  }
+
+  .col-md-2 {
+    width: 35% !important;
+    height: 75% !important;
+    /* position: absolute; */
+    margin: 5px auto !important;
     /* background-color: rgb(26, 188, 156); */
     border-radius: 100%;
-    filter: drop-shadow(0px 0px 10px rgb(26, 108, 156));
-    top: 490px;
-    left: 15px;
+    /* filter: drop-shadow(0px 0px 5px rgb(26, 188, 156)); */
     z-index: 1;
+    inline-size: 5px;
   }
-  
-  .js {
-    position: absolute;
-    width: 55px;
-    margin: 50px auto;
+
+  .col-md-2:hover {
+    /* position: absolute; */
+    margin: 5px auto !important;
     /* background-color: rgb(26, 188, 156); */
-    border-radius: 100%;
-    filter: drop-shadow(0px 0px 10px rgb(26, 108, 156));
-    top: 270px;
-    left: 55px;
-    z-index: 1;
+    border-radius: 80%;
+    filter: drop-shadow(0px 0px 5px rgb(26, 188, 156));
   }
-  
-  .css {
-    position: absolute;
-    width: 55px;
-    margin: 50px auto;
-    /* background-color: rgb(26, 188, 156); */
-    border-radius: 100%;
-    filter: drop-shadow(0px 0px 10px rgb(26, 108, 156));
-    top: 250px;
-    left: 25px;
-    z-index: 1;
-  }
-  
-  .php {
-    position: absolute;
-    width: 55px;
-    margin: 50px auto;
-    /* background-color: rgb(26, 188, 156); */
-    border-radius: 100%;
-    filter: drop-shadow(0px 0px 10px rgb(26, 108, 156));
-    top: 280px;
-    left: 90px;
-    z-index: 1;
-  }
-  
-  .sql {
-    position: absolute;
-    width: 55px;
-    margin: 50px auto;
-    /* background-color: rgb(26, 188, 156); */
-    border-radius: 100%;
-    filter: drop-shadow(0px 0px 10px rgb(26, 108, 156));
-    top: 270px;
-    left: 125px;
-    z-index: 1;
-  }
-  
-  .node {
-    position: absolute;
-    width: 55px;
-    margin: 50px auto;
-    /* background-color: rgb(26, 188, 156); */
-    border-radius: 100%;
-    filter: drop-shadow(0px 0px 10px rgb(26, 108, 156));
-    top: 220px;
-    left: 165px;
-    z-index: 1;
-  }
-  
-  .react {
-    position: absolute;
-    width: 55px;
-    margin: 50px auto;
-    /* background-color: rgb(26, 188, 156); */
-    border-radius: 100%;
-    filter: drop-shadow(0px 0px 10px rgb(26, 108, 156));
-    top: 250px;
-    left: 155px;
-    z-index: 1;
-  }
-  
 
 }
 
 
 /* contacto pestaña */
-.bordeblanco{
+.bordeblanco {
   background-color: transparent;
   border-radius: 50%;
   border: 5px solid white;
   width: 50%;
 }
+
 .divmemo {
   /* width: 50%; */
   /* position: relative; */
@@ -228,25 +174,29 @@ img {
   align-items: center;
 }
 
-#contact_name, #contact_email, #contact_mensaje{
+#contact_name,
+#contact_email,
+#contact_mensaje {
   filter: drop-shadow(4px 6px 15px rgb(5, 255, 205));
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-   border-radius: 10px;
-   border: 1px solid #2d9fd9;
-   /* color: #a0d18c; */
+  border-radius: 10px;
+  border: 1px solid #2d9fd9;
+  /* color: #a0d18c; */
 
-   /* padding-left: 10px; */
+  /* padding-left: 10px; */
 }
 
-.enviar{
+.enviar {
   color: var(--azul) !important;
   background-color: rgb(5, 255, 205) !important;
   border: var(--azul) !important;
   filter: drop-shadow(4px 6px 25px rgb(5, 255, 205));
 }
 
-#nombre, #correo, #mensaje{
+#nombre,
+#correo,
+#mensaje {
   filter: drop-shadow(0px 0px 10px rgb(5, 255, 205));
   border-radius: 10px;
 }
@@ -254,86 +204,33 @@ img {
 
 /* iconos pantalla pc */
 
-.html5 {
-  position: absolute;
-  width: 55px;
-  margin: 50px auto;
-  /* background-color: rgb(26, 188, 156); */
-  border-radius: 100%;
-  filter: drop-shadow(0px 0px 10px rgb(26, 108, 156));
-  top: 490px;
-  left: 15px;
+.col-md-2 {
+
+  /* position: absolute; */
+  /* width: 10%; */
+  /* margin: 50px auto; */
+  background-color: rgb(26, 188, 156);
+  /* border-radius: 30%; */
+  /* border: 50px; */
+  filter: drop-shadow(0px 0px 10px rgb(26, 188, 156));
+  /* top: 250px; */
+  /* left: 155px; */
   z-index: 1;
+  inline-size: 5px;
 }
 
-.js {
-  position: absolute;
-  width: 55px;
-  margin: 50px auto;
-  /* background-color: rgb(26, 188, 156); */
-  border-radius: 100%;
-  filter: drop-shadow(0px 0px 10px rgb(26, 108, 156));
-  top: 270px;
-  left: 55px;
-  z-index: 1;
+.textant {
+  color: white !important;
 }
 
-.css {
-  position: absolute;
-  width: 55px;
-  margin: 50px auto;
-  /* background-color: rgb(26, 188, 156); */
-  border-radius: 100%;
-  filter: drop-shadow(0px 0px 10px rgb(26, 108, 156));
-  top: 250px;
-  left: 25px;
-  z-index: 1;
+.centraricons{
+  justify-content: center;
 }
 
-.php {
-  position: absolute;
-  width: 55px;
-  margin: 50px auto;
-  /* background-color: rgb(26, 188, 156); */
-  border-radius: 100%;
-  filter: drop-shadow(0px 0px 10px rgb(26, 108, 156));
-  top: 280px;
-  left: 90px;
-  z-index: 1;
+.cardbady{
+  border-radius: 20px !important;
+  border-top-left-radius: 0% !important;
 }
-
-.sql {
-  position: absolute;
-  width: 55px;
-  margin: 50px auto;
-  /* background-color: rgb(26, 188, 156); */
-  border-radius: 100%;
-  filter: drop-shadow(0px 0px 10px rgb(26, 108, 156));
-  top: 270px;
-  left: 125px;
-  z-index: 1;
-}
-
-.node {
-  position: absolute;
-  width: 55px;
-  margin: 50px auto;
-  /* background-color: rgb(26, 188, 156); */
-  border-radius: 100%;
-  filter: drop-shadow(0px 0px 10px rgb(26, 108, 156));
-  top: 220px;
-  left: 165px;
-  z-index: 1;
-}
-
-.react {
-  position: absolute;
-  width: 55px;
-  margin: 50px auto;
-  /* background-color: rgb(26, 188, 156); */
-  border-radius: 100%;
-  filter: drop-shadow(0px 0px 10px rgb(26, 108, 156));
-  top: 250px;
-  left: 155px;
-  z-index: 1;
+.cardbady:hover{
+  filter: drop-shadow(0px 0px 10px rgb(26, 188, 156));
 }

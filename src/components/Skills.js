@@ -4,40 +4,174 @@ import "@fontsource/montserrat";
 import Html from '../img/html.png'
 import Js from '../img/js.png'
 import Css from '../img/css3.png'
-// import Jquery from '../img/jq.webp'
+import Jquery from '../img/jq.webp'
 import Php from '../img/php.png'
 import Mysqlo from '../img/mysql.png'
 import Node from '../img/node.webp'
 import Reacto from '../img/react.png'
+import Sass from '../img/sass.png'
+import Bs from '../img/bootstrap.png'
+import { Divider, Typography, Card, Avatar } from 'antd';
+const { Text } = Typography;
+const { Meta } = Card;
 
 const Skills = () => {
-    return(
+    return (
         <>
             <div className='container'>
-            <div className='html'>
-                            <img src={Html} className="img-fluid rounded-top html5" alt="" />
-                        </div>
-                        <div className='js'>
-                            <img src={Js} className="img-fluid rounded-top js" alt="" />
-                        </div>
-                        <div className='css'>
-                            <img src={Css} className="img-fluid rounded-top css" alt="" />
-                        </div>
-                        {/* <div className='jq'>
-                            <img src={Jquery} className="img-fluid rounded-top jq" alt="" />
-                        </div> */}
-                        <div className='php'>
-                            <img src={Php} className="img-fluid rounded-top php" alt="" />
-                        </div>
-                        <div className='sql'>
-                            <img src={Mysqlo} className="img-fluid rounded-top sql" alt="" />
-                        </div>
-                        <div className='node'>
-                            <img src={Node} className="img-fluid rounded-top node" alt="" />
-                        </div>
-                        <div className='react'>
-                            <img src={Reacto} className="img-fluid rounded-top react" alt="" />
-                        </div>
+                <Text type="light" className='d-flex justify-content-center textant'>Desarrollo Web</Text>
+                <Divider />
+
+                <div className='row d-flex centraricons'>
+                    <Card
+                        className='cardbady'
+                        style={{
+                            width: 300,
+                            marginTop: 16,
+
+                        }}
+
+                    >
+                        <Meta
+                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Html} />}
+                            title="HTML5"
+                            description="99%"
+                        />
+                    </Card>
+                    <Card
+                        className='cardbady'
+                        style={{
+                            width: 300,
+                            marginTop: 16,
+                        }}
+
+                    >
+                        <Meta
+                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Js} />}
+                            title="JavaScript"
+                            description="80%"
+                        />
+                    </Card>
+                    <Card
+                        className='cardbady'
+                        style={{
+                            width: 300,
+                            marginTop: 16,
+                        }}
+
+                    >
+                        <Meta
+                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Bs} />}
+                            title="Bootstrap"
+                            description="80%"
+                        />
+                    </Card>
+                    <Card
+                        className='cardbady'
+                        style={{
+                            width: 300,
+                            marginTop: 16,
+                        }}
+
+                    >
+                        <Meta
+                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Css} />}
+                            title="CSS"
+                            description="90%"
+                        />
+                    </Card>
+                    <Card
+                        className='cardbady'
+                        style={{
+                            width: 300,
+                            marginTop: 16,
+                        }}
+
+                    >
+                        <Meta
+                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Sass} />}
+                            title="SASS"
+                            description="70%"
+                        />
+                    </Card>
+                    <Card
+                        className='cardbady'
+                        style={{
+                            width: 300,
+                            marginTop: 16,
+                        }}
+
+                    >
+                        <Meta
+                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Jquery} />}
+                            title="JQuery"
+                            description="90%"
+                        />
+                    </Card>
+                    <Card
+                        className='cardbady'
+                        style={{
+                            width: 300,
+                            marginTop: 16,
+                        }}
+
+                    >
+                        <Meta
+                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Php} />}
+                            title="PHP (ingles)"
+                            description="90%"
+                        />
+                    </Card>
+                    <Card
+                        className='cardbady'
+                        style={{
+                            width: 300,
+                            marginTop: 16,
+                        }}
+
+                    >
+                        <Meta
+                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Mysqlo} />}
+                            title="MySql"
+                            description="90%"
+                        />
+                    </Card>
+                    <Card
+                        className='cardbady'
+                        style={{
+                            width: 300,
+                            marginTop: 16,
+                        }}
+
+                    >
+                        <Meta
+                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Node} />}
+                            title="Node Js"
+                            description="70%"
+                        />
+                    </Card>
+                    <Card
+                        className='cardbady'
+                        style={{
+                            width: 300,
+                            marginTop: 16,
+                        }}
+
+                    >
+                        <Meta
+                            avatar={<Avatar style={{ width: 50, height: 50 }} src={Reacto} />}
+                            title="React Js"
+                            description="70%"
+                        />
+                    </Card>
+                    {/*  */}
+                    <Divider />
+                    <Text type="light" className='d-flex justify-content-center textant'>Diseño</Text>
+                    <Divider />
+                    <Divider />
+                    <Text type="light" className='d-flex justify-content-center textant'>Transversales</Text>
+                    <Divider />
+                </div>
             </div>
         </>
     )

@@ -3,6 +3,7 @@ import './css/styles.css'
 import NavBar from './components/NavBar'
 import Welcome from './components/Welcome'
 import Footer from './components/Footer';
+import WhatsApp from './components/WpBtn'
 
 // const colores = {
 //   height: '850px',
@@ -18,6 +19,7 @@ function App() {
     <div className="App backgroundcolor">
       <NavBar/>
       <Welcome/>
+      <WhatsApp/>
       <Footer/>
     </div>
     

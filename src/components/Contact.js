@@ -8,13 +8,11 @@ import { message } from 'antd';
 const Contacto = () => {
     const enviarMail = (e) => {
         e.preventDefault();
-
         emailjs.sendForm('service_41fscqc', 'template_5k36dyq', e.target, 'PoZsIOqDFJ1phgzY8').then(res => {
             // console.log(res.status)
+            console.log(e.target)
             if (res.status == 200) {
                 document.getElementById("enviacorreo").reset();
-
-
                 message.success({
                     content: 'Mensaje Enviado',
                     className: 'custom-class',
@@ -31,7 +29,6 @@ const Contacto = () => {
         <>
             <div className='container'>
                 <div className='row'>
-
                     <div className='nombreuser'>
                         <div className='col-md-6 d-flex justify-content-center'>
                             <div className='bordeblanco'>
@@ -47,15 +44,15 @@ const Contacto = () => {
                                 </div>
                                 <div class='col'>
                                     <label className='form-label'>Nombre</label>
-                                    <input type='text' id='nombre' name='nombre' className='form-control' placeholder='Juan Bautista' aria-label='First name' />
+                                    <input type='text' id='nombre' name='nombre' className='form-control' placeholder='Juan Bautista' aria-label='First name' required/>
                                 </div>
                                 <div class='col'>
                                     <label className='form-label'>Email</label>
-                                    <input type='text' id='correo' name='correo' className='form-control' placeholder='Last name' aria-label='ejemplo@brocoli.mx' />
+                                    <input type='text' id='correo' name='correo' className='form-control' placeholder='Last name' aria-label='ejemplo@brocoli.mx' required/>
                                 </div>
                                 <div className='col'>
                                     <label className='form-label'>Mensaje</label>
-                                    <textarea type='textarea' id='mensaje' name='mensaje' rows={4} className='form-control' placeholder='Escribe el mensaje' />
+                                    <textarea type='textarea' id='mensaje' name='mensaje' rows={4} className='form-control' placeholder='Escribe el mensaje' required/>
                                 </div>
                                 <div className='col mt-4 d-flex justify-content-center'>
                                     <input type='submit' className='btn btn-primary enviar' values='Enviar' />

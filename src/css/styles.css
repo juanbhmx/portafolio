@@ -95,6 +95,12 @@ img {
 
 /* app responsive */
 @media only screen and (max-width: 786px) {
+  .descriptionfront{
+    justify-content: center !important;
+    font-stretch:wider !important;
+    text-align: center;
+  }
+
   .nombreuser {
     justify-content: center;
     display: flex;
@@ -233,7 +239,7 @@ img {
 
 .cardbady {
   border-radius: 20px !important;
-  border-top-left-radius: 0% !important;
+  /* border-top-left-radius: 0% !important; */
 }
 
 .cardbady:hover {

@@ -9,6 +9,7 @@ import "@fontsource/montserrat";
 
 
 const App = () => {
+    const Stack = "</FrontEnd Developer>"
     return (
         <>
 
@@ -16,11 +17,11 @@ const App = () => {
                 <div className='row max-w-screen-lg mx-auto'>
                     <div className='col-md-6 nombreuser'>
 
-                        <h5 className='small col-md-12'>Hola 👋, Soy</h5>
+                        <h5 className='small col-md-12'>Hey 👋 there!, I'm</h5>
                         <h1 className='col-md-12 bold'>Juan Bautista</h1>
                         <h1 className='col-md-12 bold'>Hernández</h1>
-                        <h5 className='small col-md-12'>Desarrollador FrontEnd</h5>
-                        <h5 className='small col-md-12'>Apasionado por los proyectos que emprende.</h5>
+                        <h5 className='small col-md-12'>{Stack}</h5>
+                        <h5 className='small col-md-12 descriptionfront'>Specializing in custom theme development. If you're a business seeking a web presence or are looking to hire, contact me.</h5>
                         <input name="" id="download" className='btn btn-light colorbtn mt-4' type="button" value="Descargar curriculum" />
 
                     </div>

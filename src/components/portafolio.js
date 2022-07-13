@@ -1,13 +1,11 @@
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-// import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import App1 from '../img/portfolio/app1.png'
 import App2 from '../img/portfolio/lc.png'
 import { Divider, Typography } from 'antd';
 import Chip from '@mui/material/Chip';
-import Stack from '@mui/material/Stack';
 const { Text } = Typography;
 
 export default function MultiActionAreaCard() {
@@ -19,8 +17,8 @@ export default function MultiActionAreaCard() {
             <div className='row'>
                 <div className='d-flex'>
                     <div className='col mt-4 d-flex justify-content-center'>
-                        <Card sx={{ maxWidth: 300 }}>
-                            <CardActionArea>
+                        <Card className='cardbady2' sx={{ maxWidth: 300 }} elevation={8}>
+                            <CardActionArea >
                                 <CardMedia
                                     component="img"
                                     height="140"
@@ -52,7 +50,7 @@ export default function MultiActionAreaCard() {
                         </Card>
                     </div>
                     <div className='col mt-4 d-flex justify-content-center'>
-                        <Card sx={{ maxWidth: 300 }}>
+                    <Card className='cardbady2' sx={{ maxWidth: 300 }} elevation={8}>
                             <CardActionArea>
                                 <CardMedia
                                     component="img"

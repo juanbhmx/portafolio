@@ -254,6 +254,10 @@ img {
   filter: drop-shadow(0px 0px 10px rgb(26, 188, 156));
 }
 
+.cardbady2:hover {
+  filter: drop-shadow(0px 0px 10px rgb(26, 188, 156));
+}
+
 .ant-tabs {
   display: flex;
   align-content: center;

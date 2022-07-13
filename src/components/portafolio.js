@@ -11,7 +11,7 @@ const { Text } = Typography;
 export default function MultiActionAreaCard() {
     return (
         <div className='container'>
-            <Text type="light" className='d-flex justify-content-center textant'>Desarrollo Web</Text>
+            <Text type="light" className='d-flex justify-content-center textant'>Recent works</Text>
 
             <Divider />
             <div className='row'>
@@ -60,15 +60,14 @@ export default function MultiActionAreaCard() {
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h4" component="div">
-                                        BrocoLand
+                                        La Colmena
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
-                                        An App to organize your accounts from different applications, investments and personal debts.
-                                        Developed with the following technologies:
+                                    La hive is a personal project, an ecommerce that aims to automate sales from online. made with the following technologies:
                                     </Typography>
-                                    <Chip variant="outlined" label="PHP" color="success" size="small" />
+                                    <Chip variant="outlined" label="Node JS" color="success" size="small" />
                                     <Chip variant="outlined" label="BOOTSTRAP" color="secondary" size="small" />
-                                    <Chip variant="outlined" label="JS" color="warning" size="small" />
+                                    <Chip variant="outlined" label="React JS" color="warning" size="small" />
                                     <Chip variant="outlined" label="MYSQL" color="info" size="small" />
 
                                 </CardContent>

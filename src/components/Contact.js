@@ -40,19 +40,19 @@ const Contacto = () => {
                         <div className='col-md-6'>
                             <form id="enviacorreo" onSubmit={enviarMail}>
                                 <div className='col'>
-                                    <h1 className='d-flex justify-content-center bold mt-4'>Contacto</h1>
+                                    <h1 className='d-flex justify-content-center bold mt-4'>Contact</h1>
                                 </div>
                                 <div class='col'>
-                                    <label className='form-label'>Nombre</label>
+                                    <label className='form-label'>Name</label>
                                     <input type='text' id='nombre' name='nombre' className='form-control' placeholder='Juan Bautista' aria-label='First name' required/>
                                 </div>
                                 <div class='col'>
-                                    <label className='form-label'>Email</label>
-                                    <input type='text' id='correo' name='correo' className='form-control' placeholder='Last name' aria-label='ejemplo@brocoli.mx' required/>
+                                    <label className='form-label'>Mail</label>
+                                    <input type='text' id='correo' name='correo' className='form-control' placeholder='ejemplo@domain.com' aria-label='ejemplo@brocoli.mx' required/>
                                 </div>
                                 <div className='col'>
-                                    <label className='form-label'>Mensaje</label>
-                                    <textarea type='textarea' id='mensaje' name='mensaje' rows={4} className='form-control' placeholder='Escribe el mensaje' required/>
+                                    <label className='form-label'>Message</label>
+                                    <textarea type='textarea' id='mensaje' name='mensaje' rows={4} className='form-control' placeholder='Write a message' required/>
                                 </div>
                                 <div className='col mt-4 d-flex justify-content-center'>
                                     <input type='submit' className='btn btn-primary enviar' values='Enviar' />

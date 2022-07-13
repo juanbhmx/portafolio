@@ -24,7 +24,7 @@ const Skills = () => {
     return (
         <>
             <div className='container'>
-                <Text type="light" className='d-flex justify-content-center textant'>Desarrollo Web</Text>
+                <Text type="light" className='d-flex justify-content-center textant'>Web development</Text>
 
                 <Divider />
                 <div className='row d-flex centraricons'>
@@ -135,7 +135,7 @@ const Skills = () => {
                     >
                         <Meta
                             avatar={<Avatar style={{ width: 50, height: 50 }} src={Php} />}
-                            title="PHP (ingles)"
+                            title="PHP (english)"
                         // description="90%"
                         />
                         <Progress percent={95} status="active" />
@@ -205,7 +205,7 @@ const Skills = () => {
                     </Card>
 
                     <Divider className='mt-4' />
-                    <Text type="light" className='d-flex justify-content-center textant'>Diseño</Text>
+                    <Text type="light" className='d-flex justify-content-center textant'>Design</Text>
                     {/* <Divider /> */}
 
                     <Card
@@ -241,7 +241,7 @@ const Skills = () => {
                     </Card>
 
                     <Divider className='mt-4' />
-                    <Text type="light" className='d-flex justify-content-center textant'>Transversales</Text>
+                    <Text type="light" className='d-flex justify-content-center textant'>Transverse</Text>
                     {/* <Divider /> */}
                     <Card
                         className='cardbady'

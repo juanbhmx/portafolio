@@ -8,7 +8,7 @@ export default function App() {
                 avatar={Profile}
                 accountName="Juan Bautista"
                 statusMessage="Online"
-                chatMessage={"Hola!, ¿Como le puedo ayudar?"}
+                chatMessage={"Hi, how can I help you?"}
                 darkMode="true"
                 allowClickAway="true"
                 notificationSound="true"

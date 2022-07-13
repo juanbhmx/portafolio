@@ -5,6 +5,7 @@ import React from 'react';
 import People from './Name';
 import Skills from './Skills'
 import Contacto from './Contact'
+import Portafolio from './portafolio';
 
 const { TabPane } = Tabs;
 
@@ -14,16 +15,16 @@ const colore = {
 
 const App = () => (
   <Tabs styles={colore} defaultActiveKey="1" centered>
-    <TabPane tab="Sobre mí" key={1}>
+    <TabPane tab="About me" key={1}>
       <People />
     </TabPane>
     <TabPane tab="Skills" key={2}>
       <Skills />
     </TabPane>
-    <TabPane tab="Portafolio" key={3}>
-      contenido Portafolio
+    <TabPane tab="Portfolio" key={3}>
+      <Portafolio/>
     </TabPane>
-    <TabPane tab="Contacto" key={4}>
+    <TabPane tab="Contact" key={4}>
       <Contacto />
     </TabPane>
   </Tabs>

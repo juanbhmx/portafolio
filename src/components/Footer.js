@@ -7,7 +7,7 @@ import "@fontsource/montserrat";
 const Footer = () => {
     return (
         <>
-            <div className='container mt-4'>
+            <div className='container mt-4 d-flex justify-content-center'>
                 <div className='max-w-screen-lg mx-auto'>
                     <div className='col-md-12 nombreuser footer'>
                         <h5 className='small col-md-12'>Diseñado & Desarrollado por Juan Bautista</h5>                        

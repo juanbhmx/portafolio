@@ -95,9 +95,9 @@ img {
 
 /* app responsive */
 @media only screen and (max-width: 786px) {
-  .descriptionfront{
+  .descriptionfront {
     justify-content: center !important;
-    font-stretch:wider !important;
+    font-stretch: wider !important;
     text-align: center;
   }
 
@@ -158,6 +158,14 @@ img {
     filter: drop-shadow(0px 0px 5px rgb(26, 188, 156));
   }
 
+  .d-flex {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
 }
 
 
@@ -244,4 +252,11 @@ img {
 
 .cardbady:hover {
   filter: drop-shadow(0px 0px 10px rgb(26, 188, 156));
+}
+
+.ant-tabs {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  align-items: stretch
 }

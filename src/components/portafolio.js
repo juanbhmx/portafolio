@@ -42,15 +42,15 @@ export default function MultiActionAreaCard() {
                             </CardActionArea>
                             <CardActions>
 
-                                    <Button size="small" color="primary" variant='outlined' href="http://brocoland.zya.me/">
-                                        DEMO
-                                    </Button>
-                                
+                                <Button size="small" color="primary" variant='outlined' href="http://brocoland.zya.me/">
+                                    DEMO
+                                </Button>
+
                             </CardActions>
                         </Card>
                     </div>
                     <div className='col mt-4 d-flex justify-content-center'>
-                    <Card className='cardbady2' sx={{ maxWidth: 300 }} elevation={8}>
+                        <Card className='cardbady2' sx={{ maxWidth: 300 }} elevation={8}>
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
@@ -63,7 +63,7 @@ export default function MultiActionAreaCard() {
                                         La Colmena
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
-                                    La hive is a personal project, an ecommerce that aims to automate sales from online. made with the following technologies:
+                                        La hive is a personal project, an ecommerce that aims to automate sales from online. made with the following technologies:
                                     </Typography>
                                     <Chip variant="outlined" label="Node JS" color="success" size="small" />
                                     <Chip variant="outlined" label="BOOTSTRAP" color="secondary" size="small" />
@@ -74,10 +74,43 @@ export default function MultiActionAreaCard() {
                             </CardActionArea>
                             <CardActions>
 
-                                    <Button size="small" color="primary" variant='outlined' href="https://lacolmenamx.netlify.app/">
-                                        DEMO
-                                    </Button>
-                                
+                                <Button size="small" color="primary" variant='outlined' href="https://lacolmenamx.netlify.app/">
+                                    DEMO
+                                </Button>
+
+                            </CardActions>
+                        </Card>
+                    </div>
+                    <div className='col mt-4 d-flex justify-content-center'>
+                        <Card className='cardbady2' sx={{ maxWidth: 300 }} elevation={8}>
+                            <CardActionArea>
+                                <CardMedia
+                                    component="img"
+                                    height="140"
+                                    image={App2}
+                                    alt="App"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h4" component="div">
+                                        UI Amazon Prime
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                        Amazon prime platform interface
+                                        echo in:
+                                    </Typography>
+                                    <Chip variant="outlined" label="Node JS" color="success" size="small" />
+                                    <Chip variant="outlined" label="Nextui" color="secondary" size="small" />
+
+
+
+                                </CardContent>
+                            </CardActionArea>
+                            <CardActions>
+
+                                <Button size="small" color="primary" variant='outlined' href="https://uiamznprime.netlify.app/">
+                                    DEMO
+                                </Button>
+
                             </CardActions>
                         </Card>
                     </div>
